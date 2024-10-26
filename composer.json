@@ -87,11 +87,14 @@
             "tailwind:build": "symfony-cmd"
         },
         "post-install-cmd": [
-            "@auto-scripts"
+            "@auto-scripts",
+            "phpstan analyse"
         ],
         "post-update-cmd": [
-            "@auto-scripts"
-        ]
+            "@auto-scripts",
+            "phpstan analyse"
+        ],
+        "phpstan": "phpstan analyse --memory-limit=1G"
     },
     "conflict": {
         "symfony/symfony": "*"
