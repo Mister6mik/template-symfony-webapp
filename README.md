@@ -11,4 +11,10 @@
 
 ## Configuration
 ### Database exemple configuration
-`DATABASE_URL="mysql://symfony:ChangeMe@database:3306/symfony?serverVersion=8.0.40&charset=utf8mb4"`
+```yaml
+DATABASE_URL="mysql://symfony:ChangeMe@database:3306/symfony?serverVersion=8.0.40&charset=utf8mb4"
+```
+### Entity configuration preference
+```sh
+bin/console make:entity --with-uuid
+```
