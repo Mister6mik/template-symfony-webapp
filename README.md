@@ -1,4 +1,8 @@
 # TEMPLATE : FOR SYMFONY WEBAPP PROJECT
+## Installation
+```sh
+composer create-project mister6mik/template-symfony
+```
 
 ## Specific packages
 - Symfony/uid
