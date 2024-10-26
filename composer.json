@@ -106,6 +106,7 @@
         "doctrine/doctrine-fixtures-bundle": "^3.6",
         "phpstan/phpstan": "^1.12",
         "phpstan/phpstan-doctrine": "^1.5",
+        "phpstan/phpstan-symfony": "^1.4",
         "phpunit/phpunit": "^9.5",
         "symfony/browser-kit": "7.1.*",
         "symfony/css-selector": "7.1.*",
