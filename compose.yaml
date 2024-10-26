@@ -1,9 +1,7 @@
-version: "3"
-
 services:
   web:
-    container_name: symfony-project
-    image: project_web
+    container_name: ${DOCKER_WEB_CONTAINER_NAME:-container_web}
+    image: webapp:${DOCKER_WEB_VERSION:-latest}
     build:
       context: .
       dockerfile: Dockerfile
@@ -17,8 +15,8 @@ services:
       - WEB_DOCUMENT_ROOT=/app/public
 
   database:
-    container_name: project_mysql
-    image: mysql:8.0.40
+    container_name: ${DOCKER_DATABASE_CONTAINER_NAME:-container_mysql}
+    image: mysql:${DOCKER_MYSQL_VERSION:-8.0.40}
     environment:
       - MYSQL_ROOT_PASSWORD=${DOCKER_MYSQL_PASSWORD:-root}
       - MYSQL_DATABASE=${DOCKER_MYSQL_DATABASE:-symfony}
