@@ -3,6 +3,12 @@
     "description": "Mister6mik Symfony template",
     "type": "project",
     "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jessie UGOLIN",
+            "email": "jessie.ugolin@gmail.com"
+        }
+    ],
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
