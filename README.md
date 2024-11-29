@@ -5,8 +5,8 @@ composer create-project mister6mik/template-symfony my-new-webapp-project
 ```
 
 ## Specific packages
-- Symfony/uid
-- Symfonycasts/tailwind-bundle
+- symfony/uid
+- symfonycasts/tailwind-bundle
 - symfony/ux-live-component
 - symfony/ux-icons
 - phpstan/phpstan-symfony
