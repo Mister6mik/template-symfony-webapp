@@ -40,7 +40,7 @@ DOCKER_MYSQL_PORT=3306
 
 ### Build the Docker image
 ```sh
-docker-compose up -d --build
+docker-compose --env-file .env.local up -d --build
 ```
 
 ### Entity configuration preference
