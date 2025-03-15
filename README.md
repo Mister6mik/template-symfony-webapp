@@ -18,7 +18,7 @@ Duplicate `.env` to `.env.local` and edit it
 Customize the following variables:
 ```yaml
 # Version de l'image PHP-Nginx utilisée pour le service web
-DOCKER_PHP_NGINX_IMAGE=webdevops/php-nginx:8.3
+DOCKER_PHP_NGINX_IMAGE=webdevops/php-nginx:8.4
 
 # Nom du conteneur Web et version de l'image de l'application
 DOCKER_WEB_CONTAINER_NAME=symfony_web_container

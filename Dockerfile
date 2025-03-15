@@ -1,4 +1,4 @@
-ARG DOCKER_PHP_NGINX_IMAGE=webdevops/php-nginx:8.3
+ARG DOCKER_PHP_NGINX_IMAGE=webdevops/php-nginx:8.4
 
 FROM $DOCKER_PHP_NGINX_IMAGE
 
