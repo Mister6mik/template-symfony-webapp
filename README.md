@@ -3,6 +3,10 @@
 ```sh
 composer create-project mister6mik/template-symfony my-new-webapp-project
 ```
+Or with docker
+```sh
+docker run --rm -v $(pwd):/app -w /app composer create-project mister6mik/template-symfony my-new-webapp-project
+```
 
 ## Specific packages
 - symfony/uid
